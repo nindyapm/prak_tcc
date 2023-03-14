@@ -76,7 +76,7 @@
             
             include("config.php");     
             // Insert user data into table
-            mysqli_query($konek, "INSERT INTO user(namaDepan,namaBelakang,email) VALUES('$namaDepan','$namaBelakang','$email')");
+            mysqli_query($konek, "INSERT INTO user (namaDepan, namaBelakang, email) VALUES ('$namaDepan','$namaBelakang','$email')");
         }
       ?>
     <div class="child-content" id="user-list">
